@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About Monochrome
+title: About this page
 description: This page describes monochrome.
 ---
 ## About
-Monochrome is a minimal, responsive theme created for Jekyll. The goal of Monochrome is to provide a ready to use, plug and play theme for those who want to set up a blog, and focus solely on the content.
+This page is used to record the learning materials in my projects.
 
 ## Features
 
