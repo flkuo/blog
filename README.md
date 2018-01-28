@@ -1,135 +1,119 @@
-<<<<<<< HEAD
-## About
-Monochrome is a minimal, responsive, ready to use Jekyll theme for blogging. [Demo](https://dyutibarma.github.io/monochrome/)
-(Built on top of Emerald Jekyll theme)
+# Tale
+
+[![Gem Version](https://badge.fury.io/rb/tale.svg)](https://badge.fury.io/rb/tale)
+
+Tale is a minimal Jekyll theme curated for storytellers. Checkout the demo [here](https://chesterhow.github.io/tale/).
+
+![Tale screenshot](http://i.imgur.com/pXZrtmo.png)
 
 ## Features
+- Easy installation
+- Compatible with GitHub Pages
+- Responsive design (looks just as good on mobile)
+- Syntax highlighting, with the help of Pygments
+- Markdown and HTML text formatting
+- Pagination of posts
 
-- Completely responsive and mobile first
-- Clean SEO friendly URLs, auto-generated from post title (no messy dates in the url)
-- SEO title/description integration
-- Sitemap ready
-- Pagination support
-- Mobile friendly navigation menu
-- Easy customization for header, footer, navigation links, colors, favicon etc
-- Default Monochrome Color Palette - black, white, greys
-- About page
-- 404 page
-- ..and a lot more
+## Installation
+There are 3 ways to install this theme
 
-## Install/Setup Jekyll
+1. Install it as a Ruby Gem (for self-hosted sites)
+2. Install it with the `jekyll-remote-theme` plugin (for GitHub Pages hosted sites)
+3. Fork the project directly
 
-(Skip if you already have Jekyll 2.2)
+### Ruby Gem method
+1. Add this line to your `Gemfile`:
 
-1. Make sure Ruby 2.2 is installed 
-```
-sudo apt-get install ruby2.2
-sudo apt-get install ruby2.2-dev
-```
-2. Install bundle: `sudo gem install bundler`
-3. Install jekyll: `sudo gem install jekyll`
-
-### Resources
-
-- We found the jekyll tutorials on youtube very quick and useful to get started
-- [Jekyll documentation](http://jekyllrb.com)   
-
-
-## Install Monochrome dependencies
-
-```
-sudo gem install jekyll-paginate
-sudo gem install jekyll-sitemap
-
+```ruby
+gem "tale"
 ```
 
-## Get Started with Monochrome
+2. Install the theme's gems and dependencies:
 
-### Option 1 
+```bash
+$ bundle
+```
 
-- Fork this repository
-- (Optional) Change the 'baseurl' value in the 'config.yml' file, from '/blog' to your preferred directory/project name (example '/xyz' or '/' to install in root)
-- Clone the forked repository to your local machine to make changes
-- Run 'jekyll serve' and open browser to 'localhost:4000/blog/' to see your changes
-- (Optional) Host with github pages
+3. In `_config.yml` add these lines:
 
-Note: If you fork the repository, your version of the repository will not be searchable. If you want searchability, we suggest you use the next option.
+```yaml
+theme:      tale
 
+permalink:  /:year-:month-:day/:title
+paginate:   5
+```
 
-### Option 2
+Remove any other `theme:` lines.
 
-- Simply download the .zip folder from the repository github page
-- Extract the contents from the .zip folder into your local folder
-- cd into monochrome/
-- Run 'jekyll serve' and open browser to 'localhost:4000/blog/' to see your changes
-- Create a repository in github and push the files
-- (Optional) Host with github pages
+4. Rename `index.md` to `index.html`. Without this, the `jekyll-paginate` gem will not work.
 
-## Write a Post
+5. In `about.md`, change the `layout:` field to `post`:
 
-- cd into  ``_posts/``
-- create new file with format yyyy-mm-dd-title-of-post.md
-- add title/description (refer any of the test posts)
-- add markdown and save
+```Markdown
+layout: post
+```
 
+### GitHub Pages method
+1. Add these 2 lines in to your `Gemfile`:
 
-## Customization Options
+```ruby
+gem "jekyll-remote-theme"
+gem "jekyll-paginate"
+```
 
-You can customize this layout using instructions below. 
+2. Install the newly added gems:
 
-### Header/Footer/Navigation
+```bash
+$ bundle
+```
 
-Set a custom header tag by setting the related option in the ``_config.yml`` file to "true". Then insert your custom code into the ``header-custom.html`` file.
-In the same way, you can customize the footer of the navigation menu, by setting to "true" the related option and put your code into the ``nav-footer-custom.html`` file.
-Moreover select a reverse option that allows to move the navigation menu to the left side, by setting it to "true".
+3. In `_config.yml` add these lines:
 
-### Colors
+```yaml
+remote_theme: chesterhow/tale
 
-The basic colors are set into the ``base.scss`` file:
-- $background-color: used for background and links in the navigation menu
-- $text-color: used for text and title in posts and pages 
-- $text-light-color: used for text lighter than text-color
-- $text-dark-color: used for text darker than text-color
+permalink:    /:year-:month-:day/:title
+paginate:     5
 
-To customize the colors, just set the values in HEX, RGB (or RGBa) or any other format accepted by CSS.
+plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
+```
 
-### Navigation menu
+Remove any other `theme:` or `remote_theme:` lines.
 
-The links inside the navigation menu are autogenerated from pages having the layout set to ``page``.
-You can set custom links, by putting in the ``<a>`` tag into the ``link.html`` file.
+4. Rename `index.md` to `index.html`. Without this, the `jekyll-paginate` gem will not work.
 
-### Branch
-There are two branches: 
-- ``master``: is for development.
-- ``gh-pages``: is only for demo site.  
+5. In `about.md`, change the `layout:` field to `post`:
 
-### Baseurl
+```Markdown
+layout: post
+```
 
-You can change the 'baseurl' value in the 'config.yml' file, from '/monochrome' to your preferred directory/project name (example '/xyz' or '/' to install in root)
+### Fork method
+1. Fork this repository
 
-### Typography
+2. Delete the unnecessary files/folders: `CODE_OF_CONDUCT.md`, `LICENSE`, `README.md`, `tale.gemspec`
 
-To maintain the vertical rhythm, it has been applied a **Typographic scale** as a modular scale, with a baseline set to 24px. To maintain this rhythm you need to insert elements like image, video or other contents with a 24px (or multiple) height as refer.
+3. Delete the `baseurl` line in `_config.yml`:
 
-## Resources
+```yaml
+baseurl:  "/tale"   # delete this line
+```
 
-- We found the jekyll tutorials on youtube very quick and useful to get started
-- [Jekyll documentation](http://jekyllrb.com)   
+## Usage
+Once you've installed the theme, you're ready to work on your Jekyll site. To start off, I would recommend updating `_config.yml` with your site's details.
 
-## Todo
+To build and serve your site, run:
 
-- Google Analytics integration
-- Footer to stick to bottom even when content is less
+```bash
+$ bundle exec jekyll serve
+```
 
-## Author
+And you're all set! Head over to http://127.0.0.1:4000/ to see your site in action.
 
-### TheReviewIndex
-
-- Dyuti Barma
-- Web site: [Review Aggregation and Summary Site for India - TheReviewIndex.com](https://thereviewindex.com)
+## Contributing
+Found a bug or have a suggestion? Feel free to create an issue or make a pull request!
 
 ## License
-Released under [MIT License](license.md).
-=======
-# blog
->>>>>>> d165267369bd2dd665b7fdcd928cd3f34297407c
+See [LICENSE](https://github.com/chesterhow/tale/blob/master/LICENSE)

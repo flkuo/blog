@@ -1,39 +1,27 @@
 # Site settings
-title: My Notes | A minimal, responsive Jekyll blog theme
-description: "A minimal, responsive, ready to use blog template, built with Jekyll."
-url: "https://flkuo.github.io/blog/"
+title:          Blog 
+description:    "reading notes"
+baseurl:        "/blog"
+url:            "https://flkuo.github.io/blog/"
+
+# Author
 author:
-  name: "Notes"
-  email: "fkuo2@wisc.edu"
-  url: "https://flkuo.github.io"
+  name:         Fanglin Kuo
+  url:          https://flkuo.github.io/blog/
+  email:        fkuo2@wisc.edu
 
 # Build settings
-baseurl: https://flkuo.github.io/blog # Change this to your relative path (ex: /blog/), or leave just a /
-markdown: kramdown
-source: .
-destination: ./_site
-permalink: /:title
-paginate: 8
-paginate_path: /page:num/
+markdown:       kramdown
 
-# Default values
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
 
-# Plugins
-gems:
+# Gems
+plugins:
   - jekyll-paginate
-  - jekyll-sitemap
 
-# Custom variables
-version: "1.0.0"
-
-# Options
-custom_header: false
-custom_nav_footer: false
-reverse: false
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
