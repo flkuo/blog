@@ -1,8 +1,8 @@
 ---
 layout: post
-category:
+category: Presentation
 tagline: 
-tags: [Visualization, Presentation]
+tags: [Visualization]
 ---
 {% include JB/setup %}
 
