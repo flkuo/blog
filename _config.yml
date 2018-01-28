@@ -1,27 +1,60 @@
-# Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/blog"
-url:            "https://flkuo.github.io"
 
-# Author
-author:
-  name:         Chester How
-  url:          https://flkuo.github.io/blog/
-  email:        fkuo2@wisc.edu
+# SEO settings
+title: Simplest
+description: "A free Jekyll theme for download"
+keywords: "Jekyll, theme, free, download, SEO, blog, web"
+url: https://flkuo.github.io
+baseurl: "/blog"
+# baseurl: null
+
+google_analytics: UA-52446115-1
+repo: https://flkuo.github.io/blog/
+disqus_shortname: "nandothemes"
 
 # Build settings
-markdown:       kramdown
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : pygments
 
-# Assets
+paginate: 4
+paginate_path: "/page/:num/"
+comments: true
+
+source: source
+destination: _site
+
+# Sass configuration
 sass:
-  sass_dir:     _sass
-  style:        compressed
+  sass_dir: assets/scss
+  style: compressed # expanded
 
-# Gems
-plugins:
+# Author settings
+author:
+  name     : Fanglin Kuo
+  job      : Worker
+  bio      : "Enthusiast student, responsive design and usability, always looking for the best project and good coffee."
+  thumb    : /images/author.jpg
+  email    : fkuo2@wisc.edu
+  url      : https://flkuo.github.io/blog
+  github   : https://flkuo.github.io
+  twitter  : http://twitter.com
+  facebook : http://facebook.com
+  linkedin : http://linkedin.com
+
+# social settings
+og_locale: "pt_BR"
+twitter_card: "summary_large_image"
+twitter_site: "@"
+
+gems:
+  - bourbon
   - jekyll-paginate
 
-# Permalinks
-permalink:      /:year-:month-:day/:title
-paginate:       5
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
