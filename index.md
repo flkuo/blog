@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A guide to QuantGen papers
+title: Some Notes
 tagline: 
 ---
 {% include JB/setup %}
