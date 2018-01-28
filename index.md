@@ -5,7 +5,7 @@ tagline:
 ---
 {% include JB/setup %}
 
-### Posts [![](images/feed-icon-14x14.png)](rss.xml)
+### Posts [![]]
 
 <ul class="posts">
   {% for post in site.posts %}
