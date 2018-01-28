@@ -1,12 +1,12 @@
 # Site settings
-title:          Blog 
-description:    "reading notes"
+title:          Tale
+description:    "Minimal Jekyll theme for storytellers"
 baseurl:        "/blog"
-url:            "https://flkuo.github.io/blog/"
+url:            "https://flkuo.github.io"
 
 # Author
 author:
-  name:         Fanglin Kuo
+  name:         Chester How
   url:          https://flkuo.github.io/blog/
   email:        fkuo2@wisc.edu
 
