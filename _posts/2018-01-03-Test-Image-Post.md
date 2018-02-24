@@ -9,7 +9,6 @@ tags: [image]
 This page shows how the embedded videos/images look like.
 
 * Busy
-![Manga 03]({{ "/images/* Image 01
 ![Manga 03]({{ "/images/manga03.jpg" | absolute_url }})" | absolute_url }})
 
 
