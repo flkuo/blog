@@ -2,7 +2,7 @@
 layout: post
 category: Nursing
 tagline: 
-tags: [Nursing, Care, Swallowing, Dietary]
+tags: [Care]
 ---
 {% include JB/setup %}
 

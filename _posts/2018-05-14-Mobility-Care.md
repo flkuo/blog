@@ -2,7 +2,7 @@
 layout: post
 category: Nursing
 tagline: 
-tags: [Nursing, Care, Mobility, Recreation]
+tags: [Care]
 ---
 {% include JB/setup %}
 
