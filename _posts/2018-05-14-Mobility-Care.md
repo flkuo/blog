@@ -9,7 +9,7 @@ tags: [Care]
 This page contains a collection of links related to Mobility function
 
 ### Transfer assistance ###
-* [Video] Transfer #1. [Transfer from laying to sitting with theory.](https://www.minnanokaigo.com/channel/theory/no1/)
+* [Video] Transfer #1. [Transfer from lying to sitting with theory.](https://www.minnanokaigo.com/channel/theory/no1/)
 * [Video] Transfer #2. [Transfer from bed to chair.](https://www.minnanokaigo.com/channel/transfer/no3/)
 * 
 
