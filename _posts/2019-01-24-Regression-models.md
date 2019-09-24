@@ -9,5 +9,5 @@ tags: [Analysis]
 This page contains a collection of study information in regression models.
 
 
-* [Book] [Regression Models for Data Science in R](https://leanpub.com/regmods/read)
+* [Book] [Regression Models for Data Science in R](https://leanpub.com/regmods)
 * [Book] [Advanced Linear Models for Data Science](https://leanpub.com/lm) 
