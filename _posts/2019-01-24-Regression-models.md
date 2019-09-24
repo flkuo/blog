@@ -6,7 +6,7 @@ tags: [Analysis]
 ---
 {% include JB/setup %}
 
-This page contains a collection of study information in regression models.
+A collection of study information in regression models.
 
 
 * [Book] [Regression Models for Data Science in R](https://leanpub.com/regmods)
