@@ -2,7 +2,7 @@
 layout: post
 category: Statistics
 tagline: 
-tags: [Analysis]
+tags: [R][Regression]
 ---
 {% include JB/setup %}
 
