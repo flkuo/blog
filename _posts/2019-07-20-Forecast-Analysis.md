@@ -13,3 +13,4 @@ Forecast analysis
 * [Website] [Backtesting trading strategies with R](https://eranraviv.com/backtesting-trading-strategies-with-r/)
 * [Website] [Curse of dimensionality part 2: forecast combinations](https://eranraviv.com/curse-of-dimensionality-illustration-2/)
 * [Website] [Forecast averaging example](https://eranraviv.com/forecast-averaging-example/)
+* [Website] [Cleaning Anomalies to Reduce Forecast Error by 9% with anomalize](https://www.r-bloggers.com/cleaning-anomalies-to-reduce-forecast-error-by-9-with-anomalize/)
