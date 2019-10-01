@@ -18,3 +18,5 @@ A collection of study information in regression models.
 * [Website] [How to prepare data: R multinomial classification example](https://winvector.github.io/vtreat/articles/MultiClassVtreat.html) 
 * [Website] [R: vtreat](https://winvector.github.io/vtreat/) is a *data.frame* processor/conditioner that prepares real-world data for supervised machine learning or predictive modeling in a statistically sound manner.
 * [Website] [GLM tips: get non-linear with splines](https://www.r-bloggers.com/glm-tip-getting-non-linear-with-splines/)
+* [Website] [bamlss: A Lego Toolbox for Flexible **Bayesian Regression**](https://www.r-bloggers.com/bamlss-a-lego-toolbox-for-flexible-bayesian-regression/)
+* 
