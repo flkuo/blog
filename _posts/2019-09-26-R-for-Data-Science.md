@@ -10,7 +10,8 @@ R for Data Science
 
 
 * [Book] [R for Data Science](https://r4ds.had.co.nz/)
-* [Book] [R Graphics Cookbook, 2nd edition](https://r-graphics.org/4) 
+* [Book] [R Graphics Cookbook, 2nd edition](https://r-graphics.org/4)
+* [Book] [Data Visualization with R](https://rkabacoff.github.io/datavis/)
 
 
 
