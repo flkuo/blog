@@ -10,8 +10,10 @@ R for Data Science
 
 
 * [Book] [R for Data Science](https://r4ds.had.co.nz/)
+* [Book] [Practical Data Science with R, Second Edition](https://www.manning.com/books/practical-data-science-with-r-second-edition)
 * [Book] [R Graphics Cookbook, 2nd edition](https://r-graphics.org/4)
 * [Book] [Data Visualization with R](https://rkabacoff.github.io/datavis/)
+* [Book] [R packages](http://r-pkgs.had.co.nz/)
 
 
 

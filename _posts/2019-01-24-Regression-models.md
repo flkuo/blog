@@ -11,6 +11,7 @@ A collection of study information in regression models.
 
 * [Book] [Regression Models for Data Science in R](https://leanpub.com/regmods)
 * [Book] [Advanced Linear Models for Data Science](https://leanpub.com/lm) 
+* [Book] [Linear models in statistics](https://na02.alma.exlibrisgroup.com/view/uresolver/01UWI_MAD/openurl?.ignore_date_coverage=true&portfolio_pid=53373696050002121&Force_direct=true)
 * [Book] [Generalized Linear Models](https://www.jstor.org/stable/2344614) 
 * [Website] [How to prepare data: R regression example](https://github.com/WinVector/vtreat/blob/master/Examples/Regression/Regression.md) 
 * [Website] [How to prepare data: R classification example](https://github.com/WinVector/vtreat/blob/master/Examples/Classification/Classification.md) 
